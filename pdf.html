@@ -1,6 +1,15 @@
 <html>
-<head><title>Test of PDF Generation</title></head>
+<head>
+    <title>Test of PDF Generation</title>
+</head>
 <body>
-<h1>PDF Generation</h1>
+    <h1>PDF Generation</h1>
+
+    <form action="https://api-stage.app.prophetlabs.com/api/Test/GeneratePDF" method="post">
+        HTML Content:<br />
+        <textarea name="HtmlContent" rows="50" cols="100"></textarea>
+        <br />
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
